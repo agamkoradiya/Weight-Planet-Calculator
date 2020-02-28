@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weight_planetcalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".All"
+            android:label="All"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Neptune"
+            android:label="Neptune"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Uranus"
+            android:label="Uranus"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Saturn"
+            android:label="Saturn"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Jupiter"
+            android:label="Jupiter"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Mars"
+            android:label="Mars"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Venus"
+            android:label="Venus"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Mercury"
+            android:label="Mercury"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
